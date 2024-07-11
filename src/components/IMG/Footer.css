@@ -1,0 +1,39 @@
+.footer {
+    background-color: #a82df0; /* Dark background color */
+    color: rgb(240, 178, 240); /* White text color */
+    padding: 5px 0; /* Padding on top and bottom */
+    text-align: center; /* Center-align text */
+    font-family:"Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    position: relative;
+    bottom: 0;
+    /* Fix position at the bottom */
+    width: 100%; /* Full width */
+    bottom: 0; /* Stick to the bottom */
+  }
+  
+  .footer h4 {
+    margin: 0; /* Remove default margin */
+    letter-spacing: 6px;
+    padding-bottom: 10px; /* Add some space below the text */
+  }
+  
+  .footer span {
+    font-weight: bold; /* Bold the developer name */
+    color: #61dafb; /* Add a custom color */
+  }
+  
+  .footer .icons {
+    margin-top: 10px; /* Space between text and icons */
+  }
+  
+  .footer .icons a {
+    color: white; /* White color for icons */
+    margin: 0 10px; /* Space between icons */
+    font-size: 24px; /* Increase icon size */
+    transition: color 0.3s ease; /* Smooth color transition */
+  }
+  
+  .footer .icons a:hover {
+    color: #61dafb; /* Change color on hover */
+  }
+  
